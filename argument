@@ -1,0 +1,10 @@
+import sys
+n1=int(sys.argv[1])
+n2=int(sys.argv[2])
+n3=int(sys.argv[3])
+ans=(n1+n2+n3)/3
+print("ans = ", ans) 
+print("ans =%.3f " %ans)
+print("ans =%8.3f " %ans)
+print("ans =%012.3f " %ans)
+print("ans =%-9.3f " %ans)

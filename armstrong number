@@ -1,0 +1,13 @@
+def check(n):
+	sum=0
+	org_num=n
+	while n>0:
+		digit=n%10
+		sum=sum+digit**3
+		n=n//10
+	if sum==org_num:
+		print("the number is armstromng number")
+	else:
+		print("the number is not the armstrong number")
+ans=check(153)
+print(ans)
